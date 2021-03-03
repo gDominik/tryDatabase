@@ -10,7 +10,7 @@ import javax.persistence.*;
         private int id;
         private String name;
         private String surname;
-        private Branch branch;
+//        private Branch branch;
 
         public Client() {
         }
@@ -39,11 +39,11 @@ import javax.persistence.*;
             this.surname = surname;
         }
 
-        public Branch getBranch() {
-            return branch;
-        }
+//        public Branch getBranch() {
+//            return branch;
+//        }
 
-        void setBranch(final Branch branch) {
-            this.branch = branch;
-        }
+//        void setBranch(final Branch branch) {
+//            this.branch = branch;
+//        }
     }
